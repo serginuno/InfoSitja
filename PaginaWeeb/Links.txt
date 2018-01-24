@@ -1,0 +1,13 @@
+introducció bootstrap: https://v4-alpha.getbootstrap.com/getting-started/introduction/
+instalar bootstrap4: https://getbootstrap.com/
+exemples bootstrap4 navbar: https://v4-alpha.getbootstrap.com/examples/offcanvas/#
+themes amb bootstrap4: https://themes.getbootstrap.com/
+blog bootstrap4: https://blog.getbootstrap.com/
+css bootstrap3: http://getbootstrap.com/docs/3.3/css/
+Portfoli joel el menu mola: http://jouleproves.tk/portfoli/
+Pagina arrossega joel: http://jouleproves.tk/lapium/public/
+admin arrosega: http://jouleproves.tk/lapium/admin/
+bootstrap nav exemples fets per gent: https://bootsnipp.com/tags/navbar?page=2
+Login joel:http://jouleproves.tk/login.php
+Registre joel: http://jouleproves.tk/registre.php
+ckeditor plugin-editor de text: https://docs.ckeditor.com/ckeditor4/docs/#!/api

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>InfoSitja</title>
+        <link rel="stylesheet" href="css/estil2.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script type="text/javascript"  src="js/bootstrap.js"></script>
+        <script type="text/javascript"  src="js/bootstrap.min.js"></script>
+        <script type="text/javascript"  src="js/java.js"></script>
+    </head>
+    <body>
+    <div class="row" id=nav>
+        <div class="col-1"></div>
+        <div class="col-3" id="logo" ></div>
+        <div class="col-1"></div>
+        <div class="col-6" >
+        <div class="row" id=menu>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+        </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="row" id="slider">
+        <div class="col-12"><img class="mySlides" src="css/images/boreal.jpg">
+        <img class="mySlides" src="css/images/gat.jpg">
+        <img class="mySlides" src="css/images/mussol.jpg"></div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000);
+            }
+        </script>
+    </div>
+    <div id="desc">
+        <p><b>InfoSitja</b></p>
+        <p><b>Experts en Informàtica</b></p>
+    </div>
+    <div class="row" id="serveismain">
+        <div class="col-1"></div>
+        <div class="col-4 servmain">
+        <div class="row justify-content-center"><div class="rod col-lg-4 col-sm-8 col-xs-6"><div class="imgrodona"></div></div></div>   
+        </div>
+        <div class="col-2"></div>
+        <div class="col-4 servmain"><div class="row justify-content-center"><div class="rod col-lg-4 col-sm-8 col-xs-6"><div class="imgrodona"></div></div></div>  
+        </div>
+        <div class="col-1"></div>
+    </div>
+    </body>
+</html>
